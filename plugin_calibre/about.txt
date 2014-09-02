@@ -1,0 +1,27 @@
+exlibris - add a nice ex libris to your EPUB eBook
+==================================================
+
+CURRENT VERSION
+ exlibris Calibre plugin 1.0.19
+
+LIMITATIONS
+ 1) Your eBook input file must be "EPUB 2.0.1"-compliant, and your ex libris input file must be "XHTML 1.1 strict"-compliant, otherwise exlibris is not guaranteed to work properly and it might produce an invalid EPUB file.
+ 2) Currently exlibris includes the additional files (images, CSS, fonts, etc.) using their extension to set the proper media-type field. Please name your file consistently. For example, do not name a JPEG image 'image.svg' but use 'image.jpg' or 'image.jpeg'.
+ 3) This Calibre plugin was mainly developed under Calibre 0.8.51, but it might work on earlier versions. It works on Calibre 1.x and 2.x.
+
+
+AUTHOR
+ Written by Alberto Pettarin, suggested by Luca "Luke" Calcinai.
+
+
+REPORTING BUGS
+ Please file a bug report using the GitHub issue tracker <https://github.com/pettarin/exlibris>.
+
+
+COPYRIGHT
+ Copyright (c) 2012-2014 Alberto Pettarin. License: the GNU General Public License Version 3 (GPLv3) <http://gnu.org/licenses/gpl.html>.
+
+
+DONATIONS
+ If you like this project, I ask you to consider supporting the eBook Club Italia <http://ebci.it/>, a non-profit association that promotes reading (especially digital reading). You can help through a donation or by becoming a member.
+

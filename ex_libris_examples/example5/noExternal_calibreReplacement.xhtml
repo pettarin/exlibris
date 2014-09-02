@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>EX LIBRIS</title>
+</head>
+<body> 
+    <h2>EX LIBRIS</h2>
+
+    <!-- use -r "owner=John Doe;phrase=Happy Birthday!" option -->
+    <h4>[%owner%]</h4>
+    <h4>[%phrase%]</h4>
+    <h4>2014-09-02 v1.0.19</h4>
+    
+    <!-- exlibris will substitute the following with metadata from Calibre -->
+    <p>Title: <b>[%calibre-title%]</b></p>
+    <p>Author: <b>[%calibre-author%]</b></p>
+    <p>Date: [%calibre-date%]</p>
+    <p>Series: [%calibre-series%]</p>
+    <p>Series Index: [%calibre-series-index%]</p>
+    <p>No external files, strings to be replaced:
+        <b>owner</b>, <b>phrase</b> (custom), and
+        <b>title</b>, <b>author</b>, <b>date</b>, <b>series</b>, <b>series-index</b> (from Calibre).</p>
+</body>
+</html>

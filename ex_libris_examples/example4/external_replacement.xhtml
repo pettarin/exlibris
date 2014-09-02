@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>EX LIBRIS</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+</head>
+<body> 
+    <h2>EX LIBRIS</h2>
+
+    <!-- use -r "owner=John Doe;phrase=Happy Birthday!" option -->
+    <h4>[%owner%]</h4>
+    <h4>[%phrase%]</h4>
+    <h4>2014-09-02 v1.0.19</h4>
+    
+    <!-- exlibris will substitute the following with metadata from the ebook -->
+    <p>Title: <b>[%title%]</b></p>
+    <p>Author: <b>[%aut%]</b></p>
+    <p>Date: [%date%]</p>
+
+    <p>
+        <img src="logoEBCI.svg" alt="Logo EBCI" width="238" height="230"/>
+    </p>
+    <p>External files (CSS, SVG), strings to be replaced:
+        <b>owner</b>, <b>phrase</b> (custom), and
+        <b>title</b>, <b>aut</b>, <b>date</b> (from metadata).</p>
+</body>
+</html>

@@ -1,0 +1,26 @@
+exlibris - add a nice ex libris to your EPUB eBook
+==================================================
+
+HELP
+
+To insert an ex libris in your EPUB eBook, you must create a XHTML file, which will be your ex libris page.
+
+Please see the examples available in the plugin ZIP file, which you can download from the exlibris Calibre plugin thread hosted at MobileRead forum:
+
+http://www.mobileread.com/forums/showthread.php?t=188619
+
+Please read the above thread before emailing the author reporting problems with exlibris.
+
+
+
+COMMON PROBLEMS
+
+Please note that if your XHTML page references images or CSS or fonts, you must check the "Include additional files from directory", and you must provide the directory containing both the XHTML page AND the additional files.
+The href/src/url values in your XHTML MUST be relative (src="myimage.jpg"), NOT absolute (src="C:\whatever\myimage.jpg")!
+Currently exlibris includes the additional files using their extension to set the proper media-type field. Please name your file consistently. For example, do not name a JPEG image 'image.svg' but use 'image.jpg' or 'image.jpeg'.
+
+You can have a placeholder replaced with custom strings or the eBook metadata.
+Please use this syntax: [%key%] in your XHTML page, and "key=value" in the configuration dialog.
+In your XHTML you can also use the placeholders listed in the configuration dialog, like [%title%] or [%calibre-title%], which will replace the placeholder with the eBook title, taken from the OPF file or Calibre metadatum, respectively.
+
+Also, please read the LIMITATIONS section in the About dialog.
